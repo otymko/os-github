@@ -197,7 +197,7 @@ opm install -f github*.ospx
 
 Токен = "какой-то-токен";
 Клиент = Новый КлиентGitHub(Токен);
-КлиентGitHub.ПредоставитьДоступКРепозиторию("oscript-library", "freeCodeCamp", "какой-то-пользователь");
+КлиентGitHub.ПредоставитьДоступКРепозиторию("oscript-library", "freeCodeCamp", "какой-то-пользователь", "push");
 ```
 
 
