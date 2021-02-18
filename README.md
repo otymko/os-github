@@ -1,6 +1,6 @@
-# Взаимодейтсвие с API GitHub
+# Взаимодействие с API GitHub
 
-Библиотека упрощает взаимодествие с GitHub API из OneScript.
+Библиотека упрощает взаимодействие с GitHub API из OneScript.
 
 ## Установка
 
@@ -21,7 +21,7 @@ opm install -f github*.ospx
 
 ### Авторизация
 
-Авторизация выполняется по token github. Как получить токен можно почитать [тут](https://github.com/settings/tokens).
+Авторизация выполняется по token github. О процедуре получения токена можно почитать [тут](https://github.com/settings/tokens).
 
 ```bsl
 #Использовать github
@@ -199,8 +199,3 @@ opm install -f github*.ospx
 Клиент = Новый КлиентGitHub(Токен);
 КлиентGitHub.ПредоставитьДоступКРепозиторию("oscript-library", "freeCodeCamp", "какой-то-пользователь", "push");
 ```
-
-
-
-
-
